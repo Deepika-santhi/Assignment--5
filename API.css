@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=El+Messiri:wght@600&family=Josefin+Sans:ital,wght@1,300&family=League+Spartan&family=Mukta&family=Nerko+One&family=Open+Sans:ital@1&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono&family=Roboto:ital@1&family=Rubik&family=Solway:wght@500&display=swap');
+
+
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(snow.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   overflow: hidden;
+}
+#root
+{
+    height: 82%;
+    width: 36%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 7%;
+    background: #dddddd;
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px 4px #afafaf;
+}
+#main
+{
+    width: 86%;
+    /* margin-top: 20%; */
+    margin: auto;
+    padding-top: 2%;
+}
+ul
+{
+    list-style-type: none;
+    font-size: 30px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+li
+{    font-family: 'Mukta', sans-serif;
+    /* font-weight: bold; */
+    margin-top: 5%;
+    /* margin-bottom: 0%; */
+    text-shadow: 4px 1px white;
+}
